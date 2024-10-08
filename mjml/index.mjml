@@ -21,7 +21,7 @@
   <mj-body background-color="#ffffff">      
     <mj-section padding="15px" background-color="#d5176d">
       <mj-column vertical-align="middle" width="50%">
-        <mj-image padding="0" width="285px" height="285px" src="" alt="pumpkin pie image"/>
+        <mj-image padding="0" fluid-on-mobile="true" width="285px" src="https://i.ibb.co/YQCJ8nD/pumpkin-Pie.png" alt="pumpkin pie image"/>
       </mj-column>
       <mj-column width="50%" vertical-align="middle" padding="20px">
         <mj-text padding-left="0" padding-right="0" padding-bottom="0" padding-top="50px" font-size="22px" font-family="'Arial Black', Arial, Verdana, sans-serif" color="#ffffff" line-height="26px">Classic Pumpkin Pie</mj-text>
