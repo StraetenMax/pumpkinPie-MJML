@@ -1,0 +1,31 @@
+mjml
+    //- Head
+    mj-head
+        mj-title pumpkinPie Mjml
+        mj-raw.
+            <meta name="color-scheme" content="light"/>
+            <meta name="supported-color-schemes" content="light"/>
+            <meta name="format-detection" content="telephone=no"/>
+            <meta name="format-detection" content="date=no"/>
+            <meta name="format-detection" content="address=no"/>
+            <meta name="format-detection" content="email=no"/>
+        mj-attributes
+            mj-all(font-family="'Arial Black', Arial, Helvetica, sans-serif" font-weight='400' font-size='15px')/
+            mj-image(border='none')/
+        mj-breakpoint(width='480px')
+    //- Body
+    mj-body(background-color="#ffffff")       
+        //- content
+        block content
+        //- tables
+        block tables
+            include ../includes/_tables
+        //- socialElement
+            block socialElement
+            include ../includes/_socialElement
+        //- imgMjtext
+            block footer
+            include ../includes/_imgMjtext
+        //- final
+            block final
+            include ../includes/_final
